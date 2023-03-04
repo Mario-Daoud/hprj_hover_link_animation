@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(15, 15, 15);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,8 +28,9 @@ body {
     background: linear-gradient(
         to right,
         transparent,
-        var(--color1),
+        var(--color1) var(--color-percent),
         var(--color2)
+        
     );
 
     content: "";
@@ -48,6 +49,6 @@ body {
 }
 
 :root {
-    --color1: rgb(61,90,254);
-    --color2: rgb(33,150,243);
+    --color1: #5b86e5;
+    --color2: #36d1dc;
 }
